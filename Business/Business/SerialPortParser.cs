@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+  
 namespace Business
 {
-    class SerialPortParser
+    public class SerialPortParser
     {
         public static void ParsePort (string port)
         {
@@ -18,7 +18,7 @@ namespace Business
             {
                 const int lastIndexOfPrefix = 3;
                 string portNumber = port.Substring(lastIndexOfPrefix);
-                //return int.Parse(portNumber);
+               // return int.Parse(portNumber);
             }
         }
     }
