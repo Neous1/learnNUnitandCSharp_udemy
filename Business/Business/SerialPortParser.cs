@@ -8,17 +8,17 @@ namespace Business
 {
     public class SerialPortParser
     {
-        public static void ParsePort (string port)
+        public static int ParsePort (string port)
         {
             if (!port.StartsWith("COM"))
             {
                 throw new FormatException("Port is not in a correct format.");
             }
-            else
+            else 
             {
                 const int lastIndexOfPrefix = 3;
                 string portNumber = port.Substring(lastIndexOfPrefix);
-               // return int.Parse(portNumber);
+                return int.Parse(portNumber);
             }
         }
     }
