@@ -58,7 +58,7 @@ namespace Business.Tests.SetupAndTeardown
             }
         }
 
-        
+        /*
         [Test]
         public void Health_Damage100OnElf_Returns45()
         {            
@@ -72,6 +72,6 @@ namespace Business.Tests.SetupAndTeardown
             _character.Damage(80);
             Assert.That(_character.Health, Is.EqualTo(65));
         }
-
+        */
     } 
 }
