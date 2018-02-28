@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Busine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Tests", "Business.Tests\Business.Tests.csproj", "{E07F09BE-12AB-40B3-89CF-DB7D172ACC72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sticks", "..\..\..\Downloads\UnitTestingCourse\UnitTestingCourse\Sticks\Sticks.csproj", "{7A00F6D0-AF48-40B6-84B6-286F5D56D22E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E07F09BE-12AB-40B3-89CF-DB7D172ACC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E07F09BE-12AB-40B3-89CF-DB7D172ACC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E07F09BE-12AB-40B3-89CF-DB7D172ACC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A00F6D0-AF48-40B6-84B6-286F5D56D22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A00F6D0-AF48-40B6-84B6-286F5D56D22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A00F6D0-AF48-40B6-84B6-286F5D56D22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A00F6D0-AF48-40B6-84B6-286F5D56D22E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
