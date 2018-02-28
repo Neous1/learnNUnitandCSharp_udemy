@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculatorTests.cs" />
     <Compile Include="CharacterTests.cs" />
     <Compile Include="SerialPortParserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
